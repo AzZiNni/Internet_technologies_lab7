@@ -1,0 +1,17 @@
+{
+  "authors": [
+    {
+      "name": "al sah",
+      "email": "email@example.com"
+    }
+  ],
+  "repositories": [{
+    "type": "path",
+    "url": "../lib/alx"
+  }],
+  "require": {
+    "alx/lib": "@dev",
+    "ext-simplexml": "*"
+  }
+}
+

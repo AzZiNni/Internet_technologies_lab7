@@ -1,0 +1,38 @@
+{
+    "packages": [
+        {
+            "name": "alx/lib",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../lib/alx",
+                "reference": "60d54c9c9ec34f965e2c87f800e966571b641ab4"
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "lib\\db\\": "src/db",
+                    "lib\\db\\models\\": "src/models"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Al Sah",
+                    "email": "aplexidr@gmail.com"
+                }
+            ],
+            "transport-options": {
+                "relative": true
+            },
+            "install-path": "../alx/lib"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

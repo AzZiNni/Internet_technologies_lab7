@@ -1,0 +1,50 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "eda7e8de7a2e9d5bbb6ae4f4d182e7c6",
+    "packages": [
+        {
+            "name": "alx/lib",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../lib/alx",
+                "reference": "60d54c9c9ec34f965e2c87f800e966571b641ab4"
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "lib\\db\\": "src/db",
+                    "lib\\db\\models\\": "src/models"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Al Sah",
+                    "email": "aplexidr@gmail.com"
+                }
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "alx/lib": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
